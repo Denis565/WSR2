@@ -13,7 +13,6 @@ namespace Progect
     public partial class FormAdmin : Form
     {
         private Customer customer = new Customer();
-
         public FormAdmin()
         {
             InitializeComponent();
