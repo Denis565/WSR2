@@ -15,6 +15,7 @@ namespace Progect
         private Customer customer = new Customer();
         public FormAdmin()
         {
+
             InitializeComponent();
 
             customer.timer1 = timer1;
