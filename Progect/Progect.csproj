@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{55AC0962-4272-457C-95A4-71013FA678E4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Progect</RootNamespace>
+    <AssemblyName>Progect</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdmin.Designer.cs">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAutorization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAutorization.Designer.cs">
+      <DependentUpon>FormAutorization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.cs" />
+    <Compile Include="FormConfirmationRegistrationRacer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConfirmationRegistrationRacer.Designer.cs">
+      <DependentUpon>FormConfirmationRegistrationRacer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDriverRegistrationMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDriverRegistrationMenu.Designer.cs">
+      <DependentUpon>FormDriverRegistrationMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditingProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditingProfile.Designer.cs">
+      <DependentUpon>FormEditingProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInformationKartSkills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInformationKartSkills.Designer.cs">
+      <DependentUpon>FormInformationKartSkills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMapMax.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMapMax.Designer.cs">
+      <DependentUpon>FormMapMax.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRacerResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRacerResult.Designer.cs">
+      <DependentUpon>FormRacerResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRacerResultsPast.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRacerResultsPast.Designer.cs">
+      <DependentUpon>FormRacerResultsPast.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegistrationForRace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegistrationForRace.Designer.cs">
+      <DependentUpon>FormRegistrationForRace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCheckingEnteredData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCheckingEnteredData.Designer.cs">
+      <DependentUpon>FormCheckingEnteredData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConfirmation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConfirmation.Designer.cs">
+      <DependentUpon>FormConfirmation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormContact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormContact.Designer.cs">
+      <DependentUpon>FormContact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCoordinatorcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCoordinatorcs.Designer.cs">
+      <DependentUpon>FormCoordinatorcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInformation.Designer.cs">
+      <DependentUpon>FormInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRacer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRacer.Designer.cs">
+      <DependentUpon>FormRacer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegistrationSponser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegistrationSponser.Designer.cs">
+      <DependentUpon>FormRegistrationSponser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRosterСharitableOrganizations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRosterСharitableOrganizations.Designer.cs">
+      <DependentUpon>FormRosterСharitableOrganizations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SQLManager.cs" />
+    <EmbeddedResource Include="FormConfirmationRegistrationRacer.resx">
+      <DependentUpon>FormConfirmationRegistrationRacer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDriverRegistrationMenu.resx">
+      <DependentUpon>FormDriverRegistrationMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditingProfile.resx">
+      <DependentUpon>FormEditingProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInformationKartSkills.resx">
+      <DependentUpon>FormInformationKartSkills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMapMax.resx">
+      <DependentUpon>FormMapMax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRacerResult.resx">
+      <DependentUpon>FormRacerResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRacerResultsPast.resx">
+      <DependentUpon>FormRacerResultsPast.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegistrationForRace.resx">
+      <DependentUpon>FormRegistrationForRace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdmin.resx">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAutorization.resx">
+      <DependentUpon>FormAutorization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCheckingEnteredData.resx">
+      <DependentUpon>FormCheckingEnteredData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConfirmation.resx">
+      <DependentUpon>FormConfirmation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormContact.resx">
+      <DependentUpon>FormContact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCoordinatorcs.resx">
+      <DependentUpon>FormCoordinatorcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInformation.resx">
+      <DependentUpon>FormInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRacer.resx">
+      <DependentUpon>FormRacer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegistrationSponser.resx">
+      <DependentUpon>FormRegistrationSponser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRosterСharitableOrganizations.resx">
+      <DependentUpon>FormRosterСharitableOrganizations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Resources\checkered-flag-sports-tool.ico" />
+    <Content Include="Resources\Dengi.png" />
+    <Content Include="Resources\Informatsia.png" />
+    <None Include="Resources\kart-skill-2017-map-2.png" />
+    <None Include="Resources\kart-skill-2017-map-1.png" />
+    <Content Include="Resources\Klyuch.png" />
+    <None Include="Resources\logotip_charity.jpg" />
+    <Content Include="Resources\Shlem.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
